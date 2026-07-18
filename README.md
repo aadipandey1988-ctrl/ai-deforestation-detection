@@ -58,6 +58,16 @@ Output:
 - Model prediction
 (Add your accuracy, precision, recall, or graphs here)
 
+## Future Improvements
+
+Possible improvements for this project include:
+
+- Expanding the training dataset
+- Improving model accuracy through hyperparameter tuning
+- Testing more advanced CNN architectures
+- Applying data augmentation techniques
+- Deploying the model for real-time satellite image classification
+
 ## Author
 
 Aadi Krishna Pandey 
