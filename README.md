@@ -1,14 +1,15 @@
 # ai-deforestation-detection
 Deep Learning model for detecting forest areas using Sentinel-2 satellite imagery.
+
 # CNN-Based Deforestation Detection Using Satellite Imagery
 
 ## Overview
-This project uses a Convolutional Neural Network (CNN) to detect deforestation patterns from satellite imagery. The model was trained using image data and evaluated using machine learning performance metrics.
+This project uses a Convolutional Neural Network (CNN) to classify satellite imagery into different land cover categories. The model was trained using satellite image data and uses deep learning techniques to identify patterns within images.
 
 ## Objectives
-- Detect areas affected by deforestation
-- Apply deep learning techniques to satellite images
-- Build a reproducible CNN-based classification model
+- Classify satellite images using a CNN-based deep learning model
+- Analyze patterns in satellite imagery
+- Build and evaluate an image classification system
 
 ## Project Structure
 
@@ -23,7 +24,8 @@ Model:
 - Convolutional Neural Network (CNN)
 - Framework: [PyTorch/TensorFlow] (change this to your framework)
 - Saved weights: `cnn_model.pth`
-
+Output:
+- Classification into one of 10 categories
 ## How to Run
 
 1. Install required libraries:
@@ -32,6 +34,12 @@ Model:
 
 
 ## Results
+
+The model achieved a test accuracy of 91%.
+
+Additional evaluation metrics such as precision, recall, and F1-score can be calculated from the test predictions.
+
+Evaluation was performed on the test dataset.
 ## Example Prediction
 
 The CNN model takes satellite images as input and classifies them based on forest/deforestation patterns.
