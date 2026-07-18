@@ -671,7 +671,7 @@ print("CNN model created successfully ✅")
 import os
 print(os.path.getsize("satellite_forest_classifier.pth"))
 
-model.load_state_dict(torch.load("satellite_forest_classifier.pth"))
+model.load_state_dict(torch.load("models/cnn_model.pth"))
 model.eval()
 
 print("Model loaded ✅")
