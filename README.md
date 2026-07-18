@@ -32,7 +32,22 @@ Model:
 
 
 ## Results
+## Example Prediction
 
+The CNN model takes satellite images as input and classifies them based on forest/deforestation patterns.
+
+Example workflow:
+
+Input:
+- Satellite image
+
+Processing:
+- Image preprocessing
+- CNN feature extraction
+- Classification
+
+Output:
+- Model prediction
 (Add your accuracy, precision, recall, or graphs here)
 
 ## Author
